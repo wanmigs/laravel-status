@@ -1,7 +1,7 @@
 
 {
-    "name": "wanmigs/laravel-system-check",
-    "description": "A HTTP health check url that can be hit to perform basic application diagnostics",
+    "name": "wanmigs/laravel-status",
+    "description": "Extending Status on a model",
     "type": "package",
     "require": {
         "php": ">=5.3.0"
@@ -11,7 +11,7 @@
         {
             "name": "Juan Miguel Torres",
             "email": "wanmigs@gmail.com",
-            "homepage": "https://github.com/wanmigs/laravel-system-check"
+            "homepage": "https://github.com/wanmigs/laravel-status"
         }
     ],
     "autoload": {
