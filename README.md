@@ -147,6 +147,7 @@ public  function  a_user_can_toggle_user_status()
 	});
 }
 
+/** @test */
 public  function  a_user_can_update_mulitple_user_status()
 {
 
