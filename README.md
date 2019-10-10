@@ -47,7 +47,7 @@ use Fligno\User\Traits\ManageStatus;
 
 class UserController extends Controller
 {
-    use  ManageStatus;
+	use  ManageStatus;
 
 	private  $model  =  'App\User';
 }
