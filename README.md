@@ -93,10 +93,10 @@ UserStatus::routes(['UserController', 'MemberController']);
 This will generate the routes above as kebab case:
 
 Controller | Link | Route Name
---- | --- | --- | ---
- UserController| /user/../{id} | user.*
- MemberController| /member/../{id} | member.*
- UserAdminController| /user-admin/../{id} | user-admin.*
+--- | --- | --- 
+UserController| /user/../{id} | user.*
+MemberController| /member/../{id} | member.*
+UserAdminController| /user-admin/../{id} | user-admin.*
 
 `...` = `active`, `deactivate` and `toggle`
 `*` =  `activation`, `deactivation` and `toggle`
