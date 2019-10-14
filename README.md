@@ -36,7 +36,7 @@ if ($user->isActive()) {
 
 ### Extending methods to your Controller
 
-To enable status for a controller, use the `Fligno\User\Traits\ManageStatus` trait on the controller and create a variable `private $model = 'App\User'`
+To enable status for a controller, use the `Fligno\User\Traits\ManageStatus` trait on the controller and create a variable `protected $model = 'App\User'`
 
 ```php
 <?php
@@ -49,7 +49,7 @@ class UserController extends Controller
 {
 	use  ManageStatus;
 
-	private  $model  =  'App\User';
+	protected $model = 'App\User';
 }
 ```
 
